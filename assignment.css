@@ -98,9 +98,10 @@ border-bottom-right-radius: 1% ;
   
 }
 .party{
+    display: flex;
     color: #FFF;
 font-family: Merriweather;
-font-size: 64px;
+font-size: 54px;
 font-style: normal;
 font-weight: 900;
 line-height: 88px; /* 137.5% */
@@ -108,6 +109,7 @@ letter-spacing: 7.04px;
 padding-left: 126px;
 margin-bottom: 0;
 margin-top: 126px;
+width: 642px;
 }
 .party-description{
     color: rgba(255, 255, 255, 0.80);
@@ -119,6 +121,7 @@ line-height: 30px; /* 166.667% */
 padding-left: 126px;
 margin-top: 25px;
 padding-top: 0;
+width: 697px;
 }
 .button{
     background-color: transparent;
@@ -141,7 +144,7 @@ border: none;
 }
 .img{
     margin: auto;
-    padding-right: 128px; 
+   padding-left: 280px; 
 }
 .fourth-section{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -194,6 +197,96 @@ line-height: normal;
 text-transform: uppercase;
 border: none;
 margin-top: 50px;
-margin-left: 43%;
+margin-left: 45%;
 margin-right: 40%;
+}
+.left{
+    width: 33%;
+   margin: 110px;
+   display: block;
+}
+
+.opt-desc{
+    display: flex;
+    width: 1600px;
+    
+height: 7335px;
+background: #FFF;
+
+}
+.best{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: -50px;
+margin-left: 3px;
+margin-top: 100px;
+}
+.coming{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+padding-bottom: 0;
+margin-bottom: 15px;
+
+}
+.left-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 393px;
+margin-top: 0;
+}
+.middle{
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+}
+.ellipse{
+    border-radius: 364.844px;
+border: 15px solid  #F00;
+padding: 35px;
+}
+.new-year{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;
+padding-left: 145px;
+}
+
+.right-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 276px;
+padding-left: 150px;
+}
+.right{
+    display: block;
+    width: 34%;
+    margin: 120px;
+}
+.corner{
+    width: 140px;
+height: 140px;
+flex-shrink: 0;
+padding-left: 145px;
 }
