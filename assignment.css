@@ -198,7 +198,7 @@ line-height: normal;
 text-transform: uppercase;
 border: none;
 margin-top: 50px;
-margin-left: 45%;
+margin-left: 44%;
 margin-right: 40%;
 }
 .left{
@@ -211,7 +211,7 @@ margin-right: 40%;
     display: flex;
     width: 1320px;
     
-height: 7335px;
+
 background: #FFF;
 
 }
@@ -292,4 +292,132 @@ padding-left: 150px;
 height: 140px;
 flex-shrink: 0;
 padding-left: 145px;
+}
+.functional{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+margin-bottom: 0%;
+}
+.fifth-section{
+    display: block;
+    justify-content: center;
+ text-align: center;
+ padding-left: 35px;
+ margin: auto;
+}
+.sale{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-align: center;
+}
+.holiday{
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+.description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+width: 1068px;
+padding-left: 190px;
+}
+.three{
+    display: flex;
+   
+}
+.rectangle{
+    display: flex;
+    width: 1320px;
+height: 229px;
+flex-shrink: 0;
+}
+.three{
+    background-image: url('Rectangle\ 2.png');
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+.discount{
+background-image: url('Rectangle\ 1.png');
+/*background-position: right top;*/
+background-position: 105px 2px  ;
+background-repeat: no-repeat;
+padding-left: 0;
+padding-right: 9000px;
+padding-top: 75px;
+}
+
+.best-gift{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.our-portfolio{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+padding-top: 0;
+margin-top: 0;
+}
+.port-description{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin-top: 0;
+padding-top: 0;
+}
+.best-gift{
+    margin-top: 90px;
+}
+.picture{
+    padding: 106px;
+}
+.photo{
+    width: 424px;
+height: 450px;
+flex-shrink: 0;
+border-radius: 16px;
+margin: 1.8px;
+padding: auto;
+row-gap: 24px;
+}
+.six-images{
+    width: 1320px;
+}
+.six-images:hover{
+    border-color: #070211;
+}
+.photo:hover{
+    border: #070211 solid;
 }
