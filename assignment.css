@@ -1,5 +1,88 @@
-.banner{
-    background-image: url('Banner\ Image.png');
+body{
+    font-family: 'Merriweather', serif;
+}
+.header{
+   /* background-image: linear-gradient((180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ); */
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('Banner\ Image.png');
     background-repeat: none;
+    margin: 0 auto;
+    max-width: 1320px;
+height: 600px;
+flex-shrink: 0;
+border-radius: 16px;
+justify-content: center;
+display: flex;
+}
+.banner-content{
+    padding-top: 177px;
+    padding-bottom: 0;
+    /*padding-left: 370px;*/
+   
+    color: #ffffff;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.banner-content1{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+padding-top: 0;
+}
 
+.second-section{
+    justify-content: center;
+}
+.off{
+    color: #F00;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 88px;
+font-weight: 700;
+padding-top: 20px;
+padding-bottom: 0px;
+margin-bottom: 45px;
+
+}
+.deals{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+
+font-weight: 500;
+margin-top: 0px;
+padding-top: 0px;
+margin-bottom: 16px;
+}
+.categories{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+}
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+}
+.third-section{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('Vectorrr.png')
+    justify-content: center;
+    display: flex; 
 }
