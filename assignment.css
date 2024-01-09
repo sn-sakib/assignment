@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Merriweather', serif;
     
@@ -47,7 +53,7 @@ text-align: center;
 font-family: 'Inter', sans-serif;
 font-size: 88px;
 font-weight: 700;
-padding-top: 20px;
+padding-top: 100px;
 padding-bottom: 0px;
 margin-bottom: 45px;
 
@@ -279,8 +285,9 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 160% */
-width: 276px;
+width: 376px;
 padding-left: 150px;
+padding-top: 10px;
 }
 .right{
     display: block;
@@ -337,8 +344,8 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 160% */
-width: 1068px;
-padding-left: 190px;
+width: 1200px;
+padding-left: 290px;
 }
 .three{
     display: flex;
@@ -354,18 +361,31 @@ flex-shrink: 0;
     background-image: url('Rectangle\ 2.png');
     background-position: bottom ;
     background-repeat: no-repeat;
-    padding-left: 80px;
+    /* padding-left: 80px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+.gift img{
+    /* width: 50%; */
 }
 .discount{
 background-image: url('Rectangle\ 1.png');
 /*background-position: right top;*/
-background-position: 105px 2px  ;
+/* background-position: 105px 2px  ; */
 background-repeat: no-repeat;
+background-size: 612px 480px;
 padding-left: 0;
-padding-right: 9000px;
+/* padding-right: 9000px; */
 padding-top: 75px;
+width: 100%;
+z-index: -1;
 }
-
+.discount img{
+    position: absolute;
+    left:calc(50% - 80px);
+}
 .best-gift{
     color: #F00;
 font-family: Inter;
@@ -429,14 +449,16 @@ border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
 align-items: center;
 margin: auto;
+text-align: center;
 }
 .letter{
-    text-align: center;
-    width: 150px;
-height: 150px;
-flex-shrink: 0;
+/* text-align: center; */
+/* width: 150px; */
+/* height: 150px; */
+/* flex-shrink: 0; */
 padding-top: 100px;
-padding-left: 43%;
+/* padding-left: 43%; */
+padding-bottom: 50px;
 }
 .newsletter{
     color: #070211;
@@ -447,6 +469,7 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 text-transform: capitalize;
+padding-bottom: 15px;
 }
 .sub-desc{
     color: rgba(7, 2, 17, 0.60);
@@ -458,9 +481,10 @@ font-weight: 400;
 line-height: 32px; /* 160% */
 padding-left: 10%;
 padding-right: 10%;
+padding-bottom: 20px;
 }
 .text-area{
-    width: 248px;
+    width: 500px;
 height: 72px;
 flex-shrink: 0;
 border-radius: 50px 0px 0px 50px;
@@ -473,9 +497,10 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-padding-left: 20%;
-padding-right: 10%;
-margin-left: 230px;
+/* padding-left: 20%;
+padding-right: 10%; */
+/* margin-left: 230px; */
+color: #070211;
 }
 .sub-button{
     width: 180px;
@@ -492,7 +517,7 @@ font-weight: 600;
 line-height: normal;
 text-transform: capitalize;
 border: none;
-margin-bottom: 1000px;
+/* margin-bottom: 1000px; */
 padding-bottom: px;
 
 }
@@ -512,48 +537,48 @@ flex-shrink: 0;
 border-radius: 0px 50px 50px 0px;
 background: #F00;
 margin-left: 82%;
-margin-top: 
+/* margin-top:  */
 }
 .end{
-    width: 1550px;
-height: 609px;
-flex-shrink: 0;
+    width: 100%;
+height: 450px;
+/* flex-shrink: 0; */
 background: #070211;
-justify-content: space-around;
+/* justify-content: space-around; */
 margin-top: 120px;
 margin-left: 0;
 }
 .first{
-    
-padding-top: 135px;
+/* padding-top: 135px; */
 display: flex;
-height: 13px;
+/* height: 13px; */
 justify-content: space-between;
+color: #FFF;
 }
-.address{
+.quarter1, .quarter2{
     color: #FFF;
 font-family: Inter;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 40px; /* 166.667% */
-padding-left: 120px;
-margin-top: 100px;
+padding: 30px;
+margin: 20px;
 
 
 }
-.contact{
+/* .contact{
     color: #FFF;
 font-family: Inter;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 40px; /* 166.667% */
+line-height: 40px; /* 166.667% 
 padding-top: 0px;
 padding-right: 60px;
 padding-left: 1100px;
 margin-top: 0;
-}
+} */
 .social{
     width: 64px;
 height: 64px;
@@ -563,19 +588,24 @@ flex-shrink: 0;
     justify-content: center;
     display: flex;
     gap: 15px;
+    padding: 20px;
 }
 .third{
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
+    color: #FFF;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.unsub{
+/* .unsub{
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-}
+} */
 .quarter1{
     display: block;
 }
